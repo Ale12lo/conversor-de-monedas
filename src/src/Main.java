@@ -13,7 +13,7 @@ public class Main {
 
         JsonObject jsonObject = jsonElement.getAsJsonObject();
 
-        System.out.println(jsonObject.getAsJsonObject("conversion_rates").get("MXN"));
+        System.out.println(jsonObject.getAsJsonObject("conversion_rates").get("AMD"));
     }
 }
 
